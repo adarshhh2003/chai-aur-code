@@ -9,6 +9,6 @@ accountPassword = "824758"
 accountCity = "indore"
 
 
-let accountState;
+let accountState; 
 
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
