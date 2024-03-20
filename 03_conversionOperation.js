@@ -21,7 +21,47 @@ let someNumber = undefined
 
 let stringNumber = String(someNumber)
 
-console.log(stringNumber)
-console.log(typeof stringNumber)
+// console.log(stringNumber)
+// console.log(typeof stringNumber)
 
 // undefined=undefined,null=null,0=0;
+
+let value = 3
+let negValue = -value
+
+// console.log(negValue)
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2%2);
+// console.log(2**3);
+// console.log(2/3);
+
+let str1 = "Hello "
+let str2 = "Adarsh"
+
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log(1+"1");
+// console.log("1"+1);
+// console.log("1"+1+2);
+// console.log(1+1+"2");
+
+// console.log(2 * 3 / 4 % 5)
+// Do not write this type if messy code .Instead of it use brackits for clear understanding
+
+// console.log(true)
+// console.log(+true)
+// console.log(+"")
+
+let num1, num2, num3
+num1 = num2 = num3 = 2+3;
+// Do not write this type of code .This is tricky code .Instead of it use easy code
+
+let gameCounter = 100
+gameCounter++;
+
+// Pre-increment and Post-increment
+console.log(gameCounter++)
