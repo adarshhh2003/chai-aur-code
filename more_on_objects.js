@@ -44,10 +44,37 @@ const user = [
 
 user[4].id
 
-console.log(tinderUser)
+// console.log(tinderUser)
 
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty("isLogged"))
+// console.log(tinderUser.hasOwnProperty("isLogged"))
+
+// +++++++++++++++++++++++++ learning more about object and de-structuring of object ,JSON,API
+
+const course = {
+    id: "af34",
+    instructorname: "Hitesh",
+    price: 999,
+
+}
+
+const {instructorname: instructor}  = course
+
+console.log(instructor)
+
+//  JSON
+// {
+//     "age": "23",
+//     "name": "Adarsh",
+//     "gender": "male"
+// }
+
+// API
+[
+    { },
+    { },
+    { }
+]
