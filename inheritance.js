@@ -8,6 +8,7 @@ class user {
     }
 }
 
+
 class teacher extends user {
     constructor(username, email, password) {
         super(username)
